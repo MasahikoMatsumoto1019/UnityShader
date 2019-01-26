@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{3CC55B1A-844B-3EF7-9F74-994FA372B609}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shader/OITComplete.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shader/03_EnvironmentMapping/EMReflectionMapping.shader">
     <Files>
-      <File FileName="Assets/Shader/First.shader" Line="3" Column="24" />
-      <File FileName="Assets/Shader/EMReflectionMapping.shader" Line="12" Column="31" />
-      <File FileName="Assets/Shader/EMCurvedGlass.shader" Line="6" Column="16" />
-      <File FileName="Assets/Shader/EMSkyboxes.shader" Line="3" Column="26" />
-      <File FileName="Assets/Shader/EMSkyboxes2.shader" Line="1" Column="1" />
-      <File FileName="Assets/Script/ComputeDiffuseEnvironmentMap.cs" Line="101" Column="37" />
-      <File FileName="Assets/Shader/EMManyLightSorces.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/BlendingOneOne.shader" Line="5" Column="1" />
-      <File FileName="Assets/Shader/blendingOne.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/OITComplete.shader" Line="26" Column="41" />
+      <File FileName="Assets/Shader/Basics/Basics_DOS_builtInVertex.shader" Line="3" Column="16" />
+      <File FileName="Assets/Shader/01_Basics/Basics_RGBCube_OutQualifier.shader" Line="10" Column="5" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/cutawayDoubleDiscard.shader" Line="38" Column="50" />
+      <File FileName="Assets/Shader/01_Basics/Basics_DOS_builtInVertex.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/blending.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/includingBackFaceBlending.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/blendingOne.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/OITblendingAdditiveSrcAOne.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/OITMultiplicativeblending.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/BlendingOneOne.shader" Line="1" Column="5" />
+      <File FileName="Assets/Shader/03_EnvironmentMapping/EMReflectionMapping.shader" Line="3" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

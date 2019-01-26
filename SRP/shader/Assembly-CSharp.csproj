@@ -109,30 +109,31 @@
     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
     <Compile Include="Assets\Script\ComputeDiffuseEnvironmentMap.cs" />
+    <Compile Include="Assets\Script\UpdateRotation.cs" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
-    <None Include="Assets\Shader\cutawayDoubleDiscard.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\cutawayDoubleDiscard.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-    <None Include="Assets\Shader\SilhoutteEnhancement.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\SilhoutteEnhancement.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
-    <None Include="Assets\Shader\builtInVertex.shader" />
+    <None Include="Assets\Shader\01_Basics\Basics_DOS_builtInVertex.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
-    <None Include="Assets\Shader\EMSkyboxes.shader" />
+    <None Include="Assets\Shader\03_EnvironmentMapping\EMSkyboxes.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-    <None Include="Assets\Shader\OITComplete.shader" />
-    <None Include="Assets\Shader\blending.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\OITComplete.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\blending.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
@@ -140,13 +141,12 @@
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-    <None Include="Assets\Shader\OITblendingAdditiveSrcAOne.shader" />
-    <None Include="Assets\Shader\BlendingOneOne.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\OITblendingAdditiveSrcAOne.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\BlendingOneOne.shader" />
     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-    <None Include="Assets\Shader\Grass.shader" />
-    <None Include="Assets\Shader\cutaway.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\cutaway.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
@@ -154,7 +154,7 @@
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
-    <None Include="Assets\Shader\OITMultiplicativeblending.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\OITMultiplicativeblending.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
     <None Include="Assets\PyroParticles\Readme.txt" />
@@ -166,18 +166,18 @@
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
-    <None Include="Assets\Shader\EMReflectionMapping.shader" />
+    <None Include="Assets\Shader\03_EnvironmentMapping\EMReflectionMapping.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
-    <None Include="Assets\Shader\EMCurvedGlass.shader" />
+    <None Include="Assets\Shader\03_EnvironmentMapping\EMCurvedGlass.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
-    <None Include="Assets\Shader\EMSkyboxes2.shader" />
+    <None Include="Assets\Shader\03_EnvironmentMapping\EMSkyboxes2.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
@@ -187,17 +187,17 @@
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
-    <None Include="Assets\Shader\blendingOne.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\blendingOne.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
-    <None Include="Assets\Shader\EMManyLightSorces.shader" />
-    <None Include="Assets\Shader\includingBackFaceBlending.shader" />
+    <None Include="Assets\Shader\03_EnvironmentMapping\EMManyLightSorces.shader" />
+    <None Include="Assets\Shader\02_TransparentSurfaces\includingBackFaceBlending.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
-    <None Include="Assets\Shader\First.shader" />
+    <None Include="Assets\Shader\01_Basics\Basics_RGBCube_OutQualifier.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
@@ -207,16 +207,16 @@
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\freeHDRI_assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/matsumotomasahiko/SRP/shader/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/matsumotomasahiko/UnityShader/SRP/shader/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/matsumotomasahiko/SRP/shader/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/matsumotomasahiko/UnityShader/SRP/shader/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/matsumotomasahiko/SRP/shader/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/matsumotomasahiko/UnityShader/SRP/shader/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/matsumotomasahiko/SRP/shader/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/matsumotomasahiko/UnityShader/SRP/shader/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity2018.2.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
