@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 177292478}
   - component: {fileID: 177292477}
   m_Layer: 0
-  m_Name: EMManuyLightSources
+  m_Name: EMManyLightSources
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
