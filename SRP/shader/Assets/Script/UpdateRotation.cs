@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class UpdateRotation : MonoBehaviour {
 
+    public float angle = 0.1f;
 	// Update is called once per frame
 	void Update () {
         foreach(Transform tra in gameObject.transform)
         {
-            tra.RotateAround(tra.position, Vector3.up, 0.1f);
+            tra.RotateAround(tra.position, Vector3.up, angle);
         }
 	}
 }
