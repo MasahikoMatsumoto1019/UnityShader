@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shader", "Assembly-CSharp.csproj", "{3CC55B1A-844B-3EF7-9F74-994FA372B609}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3CC55B1A-844B-3EF7-9F74-994FA372B609}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shader", "Assembly-CSharp-Editor.csproj", "{33C7C9B1-4822-02A6-AACE-8FD9AA6DE3D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{33C7C9B1-4822-02A6-AACE-8FD9AA6DE3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
