@@ -1,19 +1,32 @@
 ﻿<Properties StartupConfiguration="{3CC55B1A-844B-3EF7-9F74-994FA372B609}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shader/03_EnvironmentMapping/EMReflectionMapping.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/freeHDRI_assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs">
     <Files>
-      <File FileName="Assets/Shader/Basics/Basics_DOS_builtInVertex.shader" Line="3" Column="16" />
-      <File FileName="Assets/Shader/01_Basics/Basics_RGBCube_OutQualifier.shader" Line="10" Column="5" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/cutawayDoubleDiscard.shader" Line="38" Column="50" />
-      <File FileName="Assets/Shader/01_Basics/Basics_DOS_builtInVertex.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/blending.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/includingBackFaceBlending.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/blendingOne.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/OITblendingAdditiveSrcAOne.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/OITMultiplicativeblending.shader" Line="1" Column="1" />
-      <File FileName="Assets/Shader/02_TransparentSurfaces/BlendingOneOne.shader" Line="1" Column="5" />
-      <File FileName="Assets/Shader/03_EnvironmentMapping/EMReflectionMapping.shader" Line="3" Column="34" />
+      <File FileName="Assets/Shader/Basics/Basics_DOS_builtInVertex.shader" Line="3" Column="16" NotebookId="1" />
+      <File FileName="Assets/Shader/01_Basics/Basics_RGBCube_OutQualifier.shader" Line="10" Column="5" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/cutawayDoubleDiscard.shader" Line="38" Column="50" NotebookId="1" />
+      <File FileName="Assets/Shader/01_Basics/Basics_DOS_builtInVertex.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/blending.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/includingBackFaceBlending.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/blendingOne.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/OITblendingAdditiveSrcAOne.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/OITMultiplicativeblending.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Shader/02_TransparentSurfaces/BlendingOneOne.shader" Line="1" Column="5" NotebookId="1" />
+      <File FileName="Assets/Shader/03_EnvironmentMapping/EMReflectionMapping.shader" Line="3" Column="34" NotebookId="1" />
+      <File FileName="Assets/Shader/03_EnvironmentMapping/EMSkyboxes.shader" Line="9" Column="7" NotebookId="1" />
+      <File FileName="Assets/Shader/03_EnvironmentMapping/EMSkyboxes2.shader" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/ComputeDiffuseEnvironmentMap.cs" Line="9" Column="58" NotebookId="1" />
+      <File FileName="Assets/Script/UpdateRotation.cs" Line="21" Column="18" NotebookId="1" />
+      <File FileName="Assets/Script/A.cs" Line="23" Column="9" NotebookId="1" />
+      <File FileName="Assets/freeHDRI_assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" Line="97" Column="1" NotebookId="1" />
     </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="0" Y="23" Width="698" Height="782">
+        <Files>
+          <File FileName="Assets/Shader/03_EnvironmentMapping/EMManyLightSorces.shader" Line="6" Column="12" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
